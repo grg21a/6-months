@@ -22,8 +22,8 @@ body {
 	/* padding: 5cqi; */
   margin: 0 auto;
 
-  background: #f2c9e9;
-  background: radial-gradient(circle,rgba(242, 201, 233, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  background: #94347f;
+  /* background: radial-gradient(circle,rgba(242, 201, 233, 1) 0%, rgba(252, 70, 107, 1) 100%); */
 }
 
 header {
@@ -183,11 +183,11 @@ s
 
     height: 35em;
 
-    animation: imagerotate 50s linear infinite;
+    /* animation: imagerotate 50s linear infinite; */
 }
 
 .photo img {
-  width: 10cqi;
+  width: 8em;
   grid-area: 1/1;
   offset: circle(180px) calc(100%*sibling-index()/sibling-count()) 0deg;
   aspect-ratio: 1;
@@ -198,7 +198,7 @@ s
 
   transform-origin: 50% 50%;
 
-  animation: imagecounterrotate 50s linear infinite;
+  /* animation: imagecounterrotate 50s linear infinite; */
 }
 
 
@@ -305,7 +305,7 @@ s
 }
 
 
-@keyframes imagerotate {
+/* @keyframes imagerotate {
     0% {
         rotate: 0deg;
     }
@@ -347,7 +347,7 @@ s
     100% {
         transform: rotate(-360deg);
     }
-}
+} */
 
 
 
