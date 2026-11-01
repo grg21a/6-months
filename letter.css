@@ -8,6 +8,11 @@
   position: relative;
   width: 80%;
 }
+
+.letter p {
+  font-family: "Letter"
+}
+
 .letter:before, .letter:after {
   content: "";
   height: 98%;
