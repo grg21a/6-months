@@ -47,7 +47,7 @@ h2 {
   padding: 8cqi 0 0 0;
 }
 
-header > p, footer > p {
+header > p, main > p {
   text-align: center;
   font-size: 4cqi;
 
@@ -63,9 +63,19 @@ main {
     padding: 5cqi;
 }
 
-footer > p {
+main > p {
   padding: 6cqi 0 6cqi 0 ;
 }
+
+
+#brief {
+  margin-bottom: 4em;
+}
+
+
+
+
+
 
 :where(.ui-wheel-of-fortune) {
   all: unset;
