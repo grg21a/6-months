@@ -184,12 +184,12 @@ s
 
 
 .photo {
-    margin: 2em 0 4em 0;
+    margin: 2em auto 4em auto;
     /* display: inline-grid; */
 
     height: 35em;
 
-    width: 100%;
+    width: 80%;
 
     /* animation: imagerotate 50s linear infinite; */
 }
@@ -197,7 +197,7 @@ s
 .photo img {
   width: 8em;
   grid-area: 1/1;
-  offset: circle(120px) calc(100%*sibling-index()/sibling-count()) 0deg;
+  offset: circle(90px) calc(100%*sibling-index()/sibling-count()) 0deg;
   aspect-ratio: 1;
   border-radius: 50%;
   box-sizing: border-box;
